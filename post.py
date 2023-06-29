@@ -15,3 +15,4 @@ def get_all_posts():
     posts = cursor.fetchall()
     conn.close()
     return posts
+
